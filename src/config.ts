@@ -60,6 +60,11 @@ export const siteConfig: SiteConfig = {
 		{ url: "https://acofork.com", alias: "EdgeOne CN" },
 		{ url: "https://2x.nz", alias: "Global" },
 	],
+	server: [
+		{ url: "", text: "博客本体节点" },
+		{ url: "https://umami.acofork.com", text: "Umami节点" },
+		{ url: "https://pic.acofork.com", text: "随机图节点" },
+	],
 };
 
 export const navBarConfig: NavBarConfig = {

@@ -39,6 +39,10 @@ export type SiteConfig = {
 
 	favicon: Favicon[];
 	officialSites?: (string | { url: string; alias: string })[];
+	server?: {
+		url: string;
+		text: string;
+	}[];
 };
 
 export type Favicon = {
